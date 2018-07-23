@@ -1,6 +1,16 @@
-- title: EXAMPLE101
-  grade: C+
-- title: EXAMPLE102
-  grade: B-
-- title: EXAMPLE103
-  grade: D
+- title: "EXAMPLE101"
+  sections:
+    - title: "Labs"
+      weight: 50
+      activities:
+        - title: "Lab 1"
+          percentage: 87
+        - title: "Lab 2"
+          percentage: 85
+    - title: "Assignments"
+      weight: 50
+      activities:
+        - title: "Assignment 1"
+          percentage: 80
+        - title: "Assignment 2"
+          percentage: 83
